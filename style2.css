@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('./trugbyyyy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo{
+    color: floralwhite;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: floralwhite;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.nav-links ul li:hover::after{
+    width: 100%
+}
+.text-box{
+    width: 70%;
+    color: floralwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h2{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: floralwhite;
+}
+
+/*----- where to find us -----*/
+
+.where to find us{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.platforms{
+    width: 100px;
+    height: 120px;
+    color:darkkhaki;
+    transition: color 0.3s;
+    text-decoration: none;
+    margin: 0 10px;
+    align-items: center;
+}
+.platforms:hover{
+    color: forestgreen;
+}
+
+/*--------- Rugby page ----------*/
+
+.sub-header1{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./rugby_history2.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: floralwhite;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.history{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.history-col h1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    border-left-style:double;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+       
+}
+.history-col img{
+    width: 100%;
+}
+.history-col h2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.history-col p{
+    padding: 15px 0 25px;
+}
+
+/*----------- Teams page -----------*/
+
+.sub-header2{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./rugby_teams3.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: floralwhite;
+}
+.teams{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.teams-col h1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    border-left-style:double;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+.teams-col img{
+    width: 100%;
+}
+.teams-col h2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.teams-col p{
+    padding: 15px 0 25px;
+}
+
+/*----------- players page -----------*/
+
+.sub-header3{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./players4.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: floralwhite;
+}
+.players{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.players-col h1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    border-left-style:double;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+.players-col img{
+    width: 60%;
+    height: 700px;
+}
+.players-col p{
+    padding: 15px 0 25px;
+}
+
+/*--------- about page ----------*/
+
+.sub-header4{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./hutsbal.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: floralwhite;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col h1{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-right-style: double;
+    border-left-style:double;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+.about-col img{
+    width: 50%;
+    height: 600px;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+audio{
+    height: 5vh;
+    width: 100%;
+    padding: 15px 0 5px
+}
+/*--------- contact page ----------*/
+
+.sub-header5{
+    height: 50vh;
+    width: 100%;
+    background-image: url('./tgooi.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: floralwhite;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: darkkhaki;
+    margin: 10px;
+    margin-right: 30px; 
+}
+.contact-col div p{
+    padding: 0;
+    color: dimgray;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid darkkhaki;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background: darkkhaki;
+    border: 2px solid darkkhaki;
+    margin-top: 13px;
+    color: black;
+    font-size: 8px;
+}

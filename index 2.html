@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Informatica Website desgin</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<section class="header">
+        <nav>
+            <a href="index.html"><h1 class="logo">Rugby for You</h1></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="RUGBY.html">RUGBY</a></li>
+                    <li><a href="TEAMS.html">TEAMS</a></li>
+                    <li><a href="PLAYERS.html">PLAYERS</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<div class="text-box">
+    <h2>Welcome to Rugby</h2>
+    <p>For most people rugby will not be the first one to cross their minds while thinking about a sport. It is just not that famous and not many people know about it. 'Rugby for You' hopes to change that, we want you to know everything about this sport and no longer have all these question marks floating through your head when someone mentions the sport!   
+    </p>
+</div>
+    
+</section>
+
+
+    <script>
+        const successCallback = (position) => {
+          console.log(position);   
+        };
+        
+         const errorCallback = (error) => {
+           console.error(error);   
+        };
+        
+        
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    </script>
+ 
+    
+<!------ where to find us ------->
+
+<section class="where to find us">
+    <h1>Platforms</h1>
+    <p>We are active on Instagram and YouTube
+    </p>
+</section>
+    
+    <a class="platforms" href="https://www.instagram.com/d0ewe/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+    <a class="platforms" href="https://www.youtube.com/channel/UCQTUuz_YWP6MF8_w3PyLCvQ" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+    </a>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+</body>
+</html>
+
+
+
+
